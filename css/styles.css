@@ -10838,3 +10838,14 @@ textarea.form-control-lg {
   position: relative;
   z-index: 1;
 }
+
+.text-box {
+  position: absolute;
+  top: 30%; /* Adjust as needed */
+  left: 50%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Centers the text box */
+  background-color: #000000; /* Change this to your desired background color */
+  padding: 10px; /* Adjust as needed */
+  border-radius: 5px; /* Adjust as needed */
+  color: #ffffff; /* Sets the text color to white */
+}
